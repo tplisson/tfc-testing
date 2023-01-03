@@ -1,3 +1,7 @@
+# Self
+.gitignore
+**/.gitignore
+
 #  Local .terraform directories
 **/.terraform/*
 
