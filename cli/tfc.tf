@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "tplisson"
+    organization = "ccs-testing"
     workspaces {
       name = "tfc-testing"
     }
@@ -9,11 +9,21 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      version = "~> 4.48.0"
     }
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "<= 3.36.0"
+      version = "<= 3.37.0"
     }
   }
 }
+
+# Configure the AWS Provider
+provider "aws" {
+  region = "us-east-1"
+}
+
+# # Configure the Microsoft Azure Provider
+# provider "azurerm" {
+#   features {}
+# }

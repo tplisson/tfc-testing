@@ -1,0 +1,4 @@
+resource "azurerm_resource_group" "tfc_testing_cli" {
+  name     = "tfctestingcli"
+  location = "East US"
+}
