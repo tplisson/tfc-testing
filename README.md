@@ -18,10 +18,10 @@ Documentation:
 
 ##### Setting up Terraform Cloud for AWS
 
-Set Terraform Cloud environment variables either at the organization level:
+Set Terraform Cloud environment variables either at the organization level:  
 https://app.terraform.io/app/ccs-testing/settings/varsets
 
-or at the workspace level:
+or at the workspace level:  
 https://app.terraform.io/app/ccs-testing/workspaces/tfc-testing/variables
 
 Add Workspace variables: 
@@ -37,14 +37,14 @@ Key	| Value
 | `AWS_DEFAULT_REGION` | `us-west-2` |
 
 
-[See Terraform docs for more details](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#environment-variables)
+See [Terraform docs](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#environment-variables) for more details
 
 <br/>
 
 
 To verify that your Azure integration, create a new resource in Azure.
 
-Create a new TF file `aws-s3.tf`:
+Create a new TF file `aws-s3.tf`
 ```hcl
 resource "aws_s3_bucket" "tfc-testing-cli-s3" {
   bucket = "tfc-testing-cli-s3"
