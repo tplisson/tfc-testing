@@ -14,6 +14,20 @@ Documentation:
 
 <br/>
 
+##### Terraform
+
+<p align="center">
+  <img src="tf.png">
+</p>
+<br/>
+
+##### Terraform Cloud
+
+<p align="center">
+  <img src="tfc.png">
+</p>
+<br/>
+
 ### Integrate with AWS
 
 ##### Setting up Terraform Cloud for AWS
