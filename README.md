@@ -759,3 +759,11 @@ https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-vcs-
 ### Using API-Driven Workflow
 
 ### Integrate with Prisma Cloud Code Security
+
+[Code Security Docs](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-code-security/get-started/connect-your-repositories/add-terraform-run-tasks)
+
+
+Run Task:
+* Pre-plan: Before Terraform creates the plan.
+* Post-plan: After Terraform creates the plan.
+* Pre-apply: Before Terraform applies a plan.
