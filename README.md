@@ -4,9 +4,10 @@
 
 Documentation:  
  - [terraform.io/docs/cloud](https://developer.hashicorp.com/terraform/cloud-docs)
- - [Run-Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
  - [Learning TFC](https://hashicorp.github.io/field-workshops-terraform/slides/azure/terraform-cloud/)
- - https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-remote
+ - [Run-Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
+ - [AWS Remote State](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-remote)
+ - [Azure Remote State](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-remote)
 
 <br/>
 
