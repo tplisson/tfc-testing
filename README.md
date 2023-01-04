@@ -29,6 +29,20 @@ Documentation:
 </p>
 <br/>
 
+
+---
+### Integrate with Prisma Cloud Code Security
+
+[Code Security Docs](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-code-security/get-started/connect-your-repositories/add-terraform-run-tasks)
+
+
+Run Task:
+* Pre-plan: Before Terraform creates the plan.
+* Post-plan: After Terraform creates the plan.
+* Pre-apply: Before Terraform applies a plan.
+
+
+---
 ### Integrate with AWS
 
 ##### Setting up Terraform Cloud for AWS
@@ -478,7 +492,7 @@ aws s3 ls | grep tfc-testing-cli
 
 <br/>
 
-
+---
 ### Integrate with Azure
 
 ##### Creating an Azure Service Principal
@@ -754,18 +768,10 @@ terraform apply
 
 <br/>
 
-
+---
 ### Using VCS-Driven Workflow
 https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-vcs-change
 
+---
 ### Using API-Driven Workflow
 
-### Integrate with Prisma Cloud Code Security
-
-[Code Security Docs](https://docs.paloaltonetworks.com/prisma/prisma-cloud/prisma-cloud-admin-code-security/get-started/connect-your-repositories/add-terraform-run-tasks)
-
-
-Run Task:
-* Pre-plan: Before Terraform creates the plan.
-* Post-plan: After Terraform creates the plan.
-* Pre-apply: Before Terraform applies a plan.
