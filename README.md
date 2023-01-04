@@ -7,12 +7,12 @@ Terraform Cloud is an application that helps teams use Terraform together. It ma
 Terraform Cloud is available as a hosted service at https://app.terraform.io. Small teams can sign up for free to connect Terraform to version control, share variables, run Terraform in a stable remote environment, and securely store remote state. Paid tiers allow you to add more than five users, create teams with different levels of permissions, enforce policies before creating infrastructure, and collaborate more effectively.
 
 Documentation:  
-[terraform.io/docs/cloud](https://developer.hashicorp.com/terraform/cloud-docs)
+ - [terraform.io/docs/cloud](https://developer.hashicorp.com/terraform/cloud-docs)
+ - [Run-Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
+ - [Learning TFC](https://hashicorp.github.io/field-workshops-terraform/slides/azure/terraform-cloud/)
+ - https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-remote
 
-[Run-Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
-
-[Learning TFC](https://hashicorp.github.io/field-workshops-terraform/slides/azure/terraform-cloud/)
-
+<br/>
 
 ### Integrate with AWS
 
@@ -42,7 +42,7 @@ See [Terraform docs](https://registry.terraform.io/providers/hashicorp/aws/lates
 <br/>
 
 
-To verify that your Azure integration, create a new resource in Azure.
+To verify that your Azure integration, create a new resource in AWS.
 
 Create a new TF file `aws-s3.tf`
 ```hcl
