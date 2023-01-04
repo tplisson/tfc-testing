@@ -2,10 +2,6 @@
 
 ### What is Terraform Cloud 
 
-Terraform Cloud is an application that helps teams use Terraform together. It manages Terraform runs in a consistent and reliable environment, and includes easy access to shared state and secret data, access controls for approving changes to infrastructure, a private registry for sharing Terraform modules, detailed policy controls for governing the contents of Terraform configurations, and more.
-
-Terraform Cloud is available as a hosted service at https://app.terraform.io. Small teams can sign up for free to connect Terraform to version control, share variables, run Terraform in a stable remote environment, and securely store remote state. Paid tiers allow you to add more than five users, create teams with different levels of permissions, enforce policies before creating infrastructure, and collaborate more effectively.
-
 Documentation:  
  - [terraform.io/docs/cloud](https://developer.hashicorp.com/terraform/cloud-docs)
  - [Run-Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
@@ -13,6 +9,8 @@ Documentation:
  - https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-remote
 
 <br/>
+
+#### Terraform vs Terraform Cloud
 
 ##### Terraform
 
